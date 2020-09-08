@@ -15,6 +15,6 @@ import { CustomComponent } from './component/custom/custom.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [CustomComponent] // 跟组件
+  bootstrap: [AppComponent, CustomComponent] // 根组件
 })
 export class AppModule { }

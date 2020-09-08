@@ -1,1 +1,17 @@
-<h1>title: {{title}}, enn: {{enn}}</h1>
+<p>title: {{title}}</p>
+<p>num+1={{num + 1}}</p>
+<p>66+66={{sum(66, 66)}}</p>
+
+<!--预定义的html属性绑定变量-->
+<!--方式一-->
+<h2 class="{{classStr}}">方式一</h2>
+<!--方式二-->
+<h2 [class]="classStr">方式二</h2>
+
+<!--自定义的属性绑定变量-->
+<!--错误示例-->
+<!--<h1 custom-prop="{{classStr}}"></h1>-->
+<!--正确示例-->
+<h1 [attr.custom-prop]="title"></h1>
+
+<h1 [innerHTML]="htmlStr"></h1>

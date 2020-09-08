@@ -8,6 +8,14 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularapp-2';
-  enn = true
+  title = '这是组件内变量的内容'
+  num = 66
+
+  classStr = 'bgBlue'
+
+  htmlStr = '<span>html text</span>'
+
+  public sum(a: number, b: number): number {
+    return a + b
+  }
 }

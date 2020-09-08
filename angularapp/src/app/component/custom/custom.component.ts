@@ -17,7 +17,7 @@ export class CustomComponent implements OnInit {
 
   clickEvent() {
     if (!this.isClick) {
-      alert(1111)
+      // alert(1111)
     }
 
     this.isClick = true
