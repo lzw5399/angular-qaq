@@ -13,6 +13,8 @@ export class AppComponent {
 
   classStr = 'bgBlue'
 
+  classStr2 = 'bgPink'
+
   htmlStr = '<span>html text</span>'
 
   public sum(a: number, b: number): number {

@@ -3,5 +3,10 @@ p{
 }
 
 .bgBlue {
-  background: green;
+  background: lightblue;
+}
+
+
+.bgPink {
+  background: lightpink;
 }
